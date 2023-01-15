@@ -22,6 +22,7 @@
 /* global styles */
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -34,8 +35,18 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.logo:hover,
+.logo:focus {
+  color: var(--pressed-state-cl);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--pressed-state-cl);
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: var(--pressed-state-cl);
 }
 
@@ -44,6 +55,7 @@ body {
 }
 
 .title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -92,6 +104,7 @@ body {
 }
 
 .hero-heading {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--main-bg-cl);
@@ -152,4 +165,9 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: var(--main-txt-cl);
 }
